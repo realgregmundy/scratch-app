@@ -2,17 +2,17 @@ const config = {
   MAX_ATTACHMENT_SIZE: 5000000,
   s3: {
     REGION: "us-east-2",
-    BUCKET: "notes-app-python",
+    BUCKET: "dev-notes-infra-s3-uploads4f6eb0fd-1772k2lv13vts",
   },
   apiGateway: {
     REGION: "us-east-2",
-    URL: "https://9h4jugdwa2.execute-api.us-east-2.amazonaws.com/dev",
+    URL: "https://raop4cfhd8.execute-api.us-east-2.amazonaws.com/dev",
   },
   cognito: {
     REGION: "us-east-2",
-    USER_POOL_ID: "us-east-2_nrNxUBlUB",
-    APP_CLIENT_ID: "3ava5o3mva0is75ihm27ukc3qm",
-    IDENTITY_POOL_ID: "us-east-2:0ccce5fd-c70d-4547-9096-5a9f15381d79",
+    USER_POOL_ID: "us-east-2_aP0Hjg1Mw",
+    APP_CLIENT_ID: "46fa627guku0aeu4t5jc2qvdv0",
+    IDENTITY_POOL_ID: "us-east-2:2d9740a6-6309-4432-83fc-099df0050705",
   },
 };
 
